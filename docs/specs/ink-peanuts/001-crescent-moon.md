@@ -33,6 +33,8 @@ Dark variant: swap to *bone-white ink on soft off-black paper*, everything else 
   - [ ] iPad 9 — 2160×1620
   - [ ] MacBook Pro 14 M4 — 3024×1964
 - [ ] Cleared the [curation](../../curation.md) bar (it recedes; mostly empty; quiet, not clever).
+- [ ] (Optional, MacBook) packaged the light/dark pair as one dynamic `.heic` — see
+  [dynamic-wallpaper.md](../../dynamic-wallpaper.md).
 
 ## Not this
 

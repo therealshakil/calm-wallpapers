@@ -79,3 +79,38 @@ trap and would make a wallpaper a timesink — declined. Per-device targets tabl
 108321) **(A)**; GSMArena S24 lab **(B)**; NotebookCheck iPad 9 review **(B)**; TechSpot XDR review **(B)**;
 AAO blue-light guidance + Cochrane 2023 blue-light-lens review **(A)**; MDPI Sustainability CCT/comfort
 **(B)**; Samsung Eye Comfort Shield support **(A)**.
+
+---
+
+## Should calm-wallpapers ship macOS dynamic wallpapers? (2026-06-24)
+
+**Q:** A macOS dynamic wallpaper can shift with the system. We already make a light + dark pair per
+artwork — is packaging that as a dynamic `.heic` calm, and how?
+
+**Found:**
+- A macOS dynamic wallpaper is **one `.heic`** holding the images plus an `apple_desktop` XMP key whose
+  value is a Base64 binary plist. Three modes: **appearance** (light/dark pair — `ap` dict `{l,d}`),
+  **solar** (`si` — ~16 frames with sun altitude/azimuth), **time** (`ti` — frames by time of day). **(A**
+  — Ole Begemann reverse-engineering gist, NSHipster, Harshil Shah Catalina write-up.**)**
+- **The appearance pair is a fixed constant.** For light=index 0 / dark=index 1 the plist is always
+  `{ l = 0; d = 1; }`; the Base64 is reusable verbatim — no plist authoring per artwork. (Decoded and
+  verified.) Needs **exactly two images**. **(A)**
+- The appearance pair **follows the manual Light/Dark toggle**, not just Auto — set Dark, get the dark
+  still, then it stops. One meaningful, glanceable state change. **(A)**
+- Solar/time need ~16 frames, only animate on **Auto**, and have **documented Sequoia bugs** (solar
+  stalls once Dark is on). **(A** mechanism; **C** the bug — forum-sourced.**)**
+- **HEIC is lossy + block-based** — the worst case for high-contrast thin ink lines (ringing/mosquito
+  artefacts). Mitigate: encode **lossless** (`heif-enc -L`), author at native resolution, inspect at
+  100%. There is no PNG-quality dynamic-wallpaper container; HEIC is the only format macOS reads. **(B)**
+
+**Call (→ [dynamic-wallpaper.md](./dynamic-wallpaper.md)):** ship the **appearance (light/dark) pair
+only**. Skip the solar/time day-arc — it's over-engineering (16 hand-tuned frames, Auto-only, buggy) and
+an always-shifting desktop is the attention-pull a calm tool resists. The pair gives the one calm state
+change (match the appearance, then stop) from two images and a constant. Build-time tools (`wallpapper`,
+or `libheif`+`exiftool`) are hand tools, not shipped dependencies — same logic as
+[the-midjourney-exception](./the-midjourney-exception.md) — so a tool's staleness is acceptable here.
+
+**Sources:** Ole Begemann gist (format) **(A)**; NSHipster *macOS Dynamic Desktop* **(A)**; Harshil Shah
+*Dynamic Wallpapers in Catalina* **(A)**; `wallpapper` (GitHub, MIT, last release 2023) **(B)**; Equinox
+(open-source GUI) **(B)**; Apple Support — light/dark appearance **(A)**; Apple Dev Forums #764238
+(Sequoia solar bug) **(C)**.

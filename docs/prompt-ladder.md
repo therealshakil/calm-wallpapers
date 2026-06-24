@@ -41,6 +41,9 @@ confirmed by eye on each panel.
 Per-device tuning is justified by how it *reads*, never by an eye-health claim (the blue-light health
 framing is not evidence-based — see [research.md](./research.md)).
 
+On the MacBook, the light + dark pair can optionally be packaged as one macOS dynamic wallpaper that
+follows the system appearance — see [dynamic-wallpaper.md](./dynamic-wallpaper.md).
+
 ## The ladder, in prompts
 1. **Base + composition** — establish the Layer A calm base and the emptiness on the target ratio with a
    neutral placeholder subject. Discover/lock the style's `--sref` (see [recipe](./recipe.md)).
