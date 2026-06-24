@@ -2,24 +2,25 @@
 
 **Status:** draft · **Date:** 2026-06-24 · **Style:** [Sakina](./STYLE.md)
 
-The feeling, texture, and colours of a weatherbeaten mosque wall in a Nakuru maize town — the *wall*, not
-the mosque. Abstract Sakina geometry worn into sun-bleached, dust-filmed plaster.
+The feeling, texture, and colours of a weatherbeaten mosque wall in a Nakuru maize town — the *wall
+itself*: sun-faded plaster, gently peeling paint, a soft dust patina. Subtle and quiet; the Sakina
+geometry is at most a faint ghost in the surface, if there at all.
 
 ## Subject (Layer C)
 
-Sakina geometry — interlocking eight-pointed stars and strapwork — **worn faintly into a weatherbeaten,
-sun-bleached lime-plaster wall**: chalky patchy whitewash, dust patina, hairline sun-cracks, a faint
-water-stain, rough hand-rendered surface. Low-density, the pattern dissolving into open weathered plaster.
-No focal point. **No literal mosque, dome, minaret, or building** — only the wall's surface and its
-colours.
+A weathered, sun-faded **plaster wall** — patchy faded whitewash over rough lime render, **gently peeling
+paint**, soft dust patina, fine hairline cracks, a faint water-stain. **Subtle**: a quiet, even,
+almost-plain surface that recedes — low relief, soft daylight, nothing dramatic. The Sakina geometry, if
+present at all, is a **faint ghost** barely readable in the plaster, never a foregrounded pattern. **No
+literal mosque, building, window, or door** — only the wall's surface and its colours.
 
 ## Palette (this artwork)
 
 The Sakina palette pulled toward weathered-Nakuru ([research.md](../../research.md)): grounds
 **sun-bleached cream `#ECE4D4` + warm dust `#D9C8A4`** (~75%); sparse accents **faded mosque-green
 `#8E9C85`, desaturated murram red-earth `#A56A4E`, dust-grey `#ABA294`, a touch of faded maize-gold
-`#C8A865`**. Desaturated, light-to-mid, low contrast — the red-earth and faded green are the signature
-notes; one leads, the rest whisper.
+`#C8A865`**. Desaturated, light-to-mid, low contrast. For this subtle piece the wall's cream/dust dominates even more —
+the faded green and murram appear only as quiet stains in the plaster, not motifs.
 
 ## The prompt
 
@@ -28,11 +29,12 @@ Climbs the [ladder](../../prompt-ladder.md) on the Sakina binding. The locked `-
 (tune in the session):
 
 ```
-abstract geometric pattern, interlocking eight-pointed stars and strapwork worn faintly into a weatherbeaten sun-bleached lime-plaster wall, chalky patchy whitewash, dust patina, hairline sun-cracks, faint water-staining, matte rough hand-rendered surface, faded earthy palette — sun-bleached cream and warm dust ground, faded mosque-green and desaturated red-earth murram accents, a touch of dry maize-gold, low saturation, low contrast, soft diffuse light, sun-faded, low density, dissolving into open weathered plaster, no focal point, even rhythmic symmetry, calm and still --sref 5152366415 --sw 60 --style raw --s 50 --c 0 --ar <device> --no vivid, saturated, neon, jewel tones, glossy, sheen, new clean plaster, polished, gold, gilded, mosque, dome, minaret, building, arch, figures, people, faces, flowers, floral, plants, objects, text, calligraphy, high contrast, busy, ornate
+a weathered sun-faded plaster wall, gently peeling paint, patchy faded whitewash over rough lime render, soft dust patina, fine hairline cracks, subtle low-relief texture, faded earthy palette — sun-bleached cream and warm dust, faint stains of faded mosque-green and desaturated red-earth murram, very low saturation, low contrast, soft diffuse daylight, matte, even all-over surface, quiet and almost plain, still, a faint ghost of geometric pattern barely worn into the plaster --sref 5152366415 --sw 40 --style raw --s 50 --c 0 --ar <device> --no vivid, saturated, neon, jewel tones, glossy, sheen, wet, new clean plaster, polished, dramatic cracks, ruin, rubble, graffiti, mosque, dome, minaret, building, arch, window, door, figures, people, faces, flowers, plants, objects, text, calligraphy, high contrast, busy, ornate, bold pattern
 ```
 
-If the pastel `--sref` still overrides the earth tones, lower `--sw` further (e.g. `40`) or drop `--sref`
-and let the prompt carry this earthier piece.
+**The subtlety dial is `--sw`** — it sets how present the geometry is. At ~60 the star pattern still reads
+clearly; **drop toward 30** for subtler / more-wall, raise for more pattern. (Drop `--sref` entirely for a
+plain weathered wall with no geometry at all.)
 
 ## To record once made
 
@@ -44,9 +46,10 @@ and let the prompt carry this earthier piece.
 
 ## Not this
 
-No depicted mosque, building, arch, dome, or minaret — the wall's *surface* only. Not a vivid or
-freshly-painted wall (it's sun-faded and weathered). Not a busy, crack-everywhere ruin — weathering is a
-quiet patina, not damage.
+No depicted mosque, building, window, door, arch, dome, or minaret — the wall's *surface* only. Not a
+vivid or freshly-painted wall (it's sun-faded and weathered). Not a dramatic, crack-everywhere ruin or
+graffiti — weathering is a quiet patina, not damage. Not a bold foregrounded pattern — geometry stays a
+faint ghost, if there at all.
 
 ---
 
