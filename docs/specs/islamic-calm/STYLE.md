@@ -24,10 +24,12 @@ the energy, not a claim about intent.)*
 
 ## Palette — calm colour (a chosen departure)
 
-This style **deliberately departs from the suite's locked monochrome identity** — colour is allowed here,
-by choice, recorded as an exception, not drift (the person's call; [research](../../research.md) backs the
-*calm* of it). The governing rule: **calm colour = low saturation + light value + low contrast** — a
-neutral ground dominating, accents sparse and muted (saturation, not hue, is the arousal lever).
+Colour is allowed here under calm-wallpapers' **colour principle** ([charter](../../charter.md) §3: calm
++ research-earned) — this is the first style to use it. It departs from the suite's monochrome identity —
+a documented repo stance, not drift, proposed to identity.md (the person locks); [research](../../research.md)
+backs the *calm* of this palette. The governing rule: **calm colour = low saturation + light value + low
+contrast** — a neutral ground dominating, accents sparse and muted (saturation, not hue, is the arousal
+lever).
 
 Blends the Alhambra's cool geometric restraint with the Swahili coast's warm earthiness:
 

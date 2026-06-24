@@ -36,3 +36,17 @@ it is just pointing at it. That is the pattern; this repo is the first to use it
 - **Mechanics for any assistant working here:** absolute paths and tool dir-flags (`git -C`), never
   `cd`; one operation per command; no chained or substituted commands. Push after every commit. These
   carry over from the suite's `CLAUDE.md`.
+
+## The Build Gate applies here
+
+Every change runs through the suite's Build Gate (Constitution Amendment 2) — classify before building:
+
+- **Two-way** (reversible, no new surface) → proceed, report after — e.g. drafting an artwork spec, a doc
+  tweak.
+- **One-way** (new surface, touches the inherited identity, or a spec is pending) → stop, spec it first,
+  the person locks — e.g. opening the palette to colour.
+
+Specs-first, and here **each artwork is a spec** under a style ([`docs/specs/`](./docs/specs/)). The person
+locks (Amendment 3); a spec written alone is a draft proposal. The **colour stance** is the worked example:
+a one-way call, so it's research-backed, recorded in the [charter](./docs/charter.md) (§3), and its
+identity.md exception is the person's to lock.
