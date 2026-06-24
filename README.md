@@ -3,6 +3,12 @@
    ink on paper, for the corner of your eye
 ```
 
+> **Rested — 2026-06-24.** This project came to its end and became
+> its next chapter. The work
+> here led the way: the calm method (prompt ladder, research, the lock-when-ready workflow), the *Sakina*
+> style, and the one finished piece — *Kijani* — carry on there. Nothing's lost; it's complete, and it
+> keeps. The repo is archived (read-only).
+
 A small, hand-made set of monochrome desktop wallpapers — black ink on warm paper, made to recede.
 The kind of picture you set once and stop noticing, which is the point.
 
