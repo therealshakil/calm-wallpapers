@@ -37,7 +37,7 @@ low-arousal and restful, not just pretty?
   lever (mid-range, organic, statistically-self-similar marks) is achievable with a few gently irregular
   lines. Off-centre-beats-centre for recession is synthesis, not a measured result.
 
-**Call (→ spec 001, Layer A — the calm base):** every prompt inherits a fixed base — mid-low complexity,
+**Call (→ [prompt-ladder.md](./prompt-ladder.md), Layer A — the calm base):** every prompt inherits a fixed base — mid-low complexity,
 small subject (~10–25% of frame) low and off-centre, ~70–85% empty, low contrast (no jet-black on pure
 white), soft broad curves over fine sharp hatching, hand-drawn imperfection, biophilic/slow subjects, and
 **no faces, no direct gaze, no motion energy**.
@@ -70,7 +70,7 @@ differ; "personalised colour profile per device" was floated as itself calm.
   Samsung Eye Comfort Shield are real, shipping, opt-in — but they *move the white point themselves*, so
   tuning paper colour with them on is aiming at a moving target. **(A** features; **B** comfort.**)**
 
-**Call (→ spec 001, Layer D — device target):** per-device tuning is worth a *calm-sized* amount — one
+**Call (→ [prompt-ladder.md](./prompt-ladder.md), Layer D — device target):** per-device tuning is worth a *calm-sized* amount — one
 master + three small tweaks + correct colour tagging + a brightness note. Justify by how it *reads*, never
 by an eye-health promise. Going further (per-panel ICC profiles, gamma curves) is the over-engineering
 trap and would make a wallpaper a timesink — declined. Per-device targets table lives in the spec.

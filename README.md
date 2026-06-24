@@ -24,11 +24,14 @@ desktop background. That's the whole interaction — there's nothing to install 
 
 ## Making one
 
-The wallpapers are made by hand in Midjourney. Two short docs cover it:
+The wallpapers are made by hand in Midjourney. Each artwork is a spec, grouped under a calm style — the
+first style is [ink on paper, Peanuts](./docs/specs/ink-peanuts/STYLE.md). The shared method:
 
-- [`docs/recipe.md`](./docs/recipe.md) — how to prompt for the calm look, the parameters and why, and
-  how to keep a set consistent. The calm making-ritual is in here too: finite session, no reroll
-  treadmill.
+- [`docs/recipe.md`](./docs/recipe.md) — the look, the parameters and why, and how to keep a set
+  consistent. The calm making-ritual is here too: finite session, no reroll treadmill.
+- [`docs/prompt-ladder.md`](./docs/prompt-ladder.md) — the 4-layer process (calm base → style → subject →
+  device) and the per-device export targets.
+- [`docs/specs/`](./docs/specs/) — the styles and their artwork specs.
 - [`docs/the-midjourney-exception.md`](./docs/the-midjourney-exception.md) — why hand-use of Midjourney
   is calm, even though the suite's identity says "not Midjourney" for *automated* generation.
 
