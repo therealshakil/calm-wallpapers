@@ -152,7 +152,7 @@ Predictability is the point: once these are set, a Sakina render is repeatable â
 | # | Artwork | Status |
 |---|---|---|
 | 001 | [Star lattice](./001-star-lattice.md) | draft |
-| 002 | [Weathered wall](./002-weathered-wall.md) *(working title)* | draft |
+| 002 | [Kijani](./002-kijani.md) â€” a faded-fresco memory of a green mosque wall | ready |
 
 ---
 
