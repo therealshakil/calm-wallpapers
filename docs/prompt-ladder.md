@@ -32,11 +32,11 @@ on-theme image first; fan out to devices last. Export at native pixels (already 
 extra @2x). Tag the colour profile so the OS colour-manages instead of guessing. Tweaks are directional,
 confirmed by eye on each panel.
 
-| Device | Export | Aspect | Paper / ink tweak | Colour tag |
+| Device | Export | `--ar` | Paper / ink tweak | Colour tag |
 |---|---|---|---|---|
-| Galaxy S24 (OLED) | 1080×2340 | 19.5:9 ↕ | Warmer paper, a touch dimmer; ink can go **deepest** (true-0 black). Keep upper ~10% + lock-clock zone quiet; centre-safe (Android crops + pans edges). View in Natural mode. | P3 or sRGB |
-| iPad 9 (sRGB LCD) | 2160×1620 | 4:3 | **Warmest** paper (counters blue-ish white); **lightest** ink (milky black floor — lift it so it reads as deliberate dark-grey, not failed black). Stay inside sRGB. | sRGB |
-| MacBook Pro 14 M4 (mini-LED) | 3024×1964 | ~1.54:1 | Near-master warmth; the real lever is **lower display brightness** so paper doesn't glow. Ink can go deep. Keep menu-bar + Dock zones calm. View in a reference mode. | P3 or sRGB |
+| Galaxy S24 (OLED) | 1080×2340 | `6:13` (≈19.5:9 ↕) | Warmer paper, a touch dimmer; ink can go **deepest** (true-0 black). Keep upper ~10% + lock-clock zone quiet; centre-safe (Android crops + pans edges). View in Natural mode. | P3 or sRGB |
+| iPad 9 (sRGB LCD) | 2160×1620 | `4:3` | **Warmest** paper (counters blue-ish white); **lightest** ink (milky black floor — lift it so it reads as deliberate dark-grey, not failed black). Stay inside sRGB. | sRGB |
+| MacBook Pro 14 M4 (mini-LED) | 3024×1964 | `3:2` (crop to native) | Near-master warmth; the real lever is **lower display brightness** so paper doesn't glow. Ink can go deep. Keep menu-bar + Dock zones calm. View in a reference mode. | P3 or sRGB |
 
 Per-device tuning is justified by how it *reads*, never by an eye-health claim (the blue-light health
 framing is not evidence-based — see [research.md](./research.md)).
