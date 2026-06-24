@@ -114,3 +114,44 @@ or `libheif`+`exiftool`) are hand tools, not shipped dependencies — same logic
 *Dynamic Wallpapers in Catalina* **(A)**; `wallpapper` (GitHub, MIT, last release 2023) **(B)**; Equinox
 (open-source GUI) **(B)**; Apple Support — light/dark appearance **(A)**; Apple Dev Forums #764238
 (Sequoia solar bug) **(C)**.
+
+---
+
+## What is Islamic calm? (2026-06-24)
+
+**Q:** What is Islamic calm — the *energy, not the depiction* ("the spirit of Islam") — as the basis for a
+future style? Official / scholarly, to read before committing.
+
+**Found:**
+- **Spiritual vocabulary.** *sakīna* — peace that descends and settles on the heart (Qur'an 48:4);
+  *ṭumaʾnīna* — the heart at rest, reached through *dhikr* / remembrance (13:28, "in the remembrance of
+  God hearts find rest"); the root *s-l-m* gives both *salām* (peace) and *Islām* (surrender). Calm is
+  **received/entrusted, not strained**. **(A** Qur'an.com; **B** tafsir.**)**
+- **Non-figuration & its rationale.** Aniconism holds firmly for *sacred* art — never a blanket ban
+  (courtly art is full of figures); it turns from depicting *things* toward the unrepresentable —
+  *tawḥīd* (divine oneness). "Energy not depiction" is the sacred register of the tradition. **(A** Met
+  essays; **B** Wikipedia.**)**
+- **The calm mechanism = no focal point.** The pattern continues past the frame; weight is even
+  everywhere; the eye never locks — it drifts and rests at once. Plus deep symmetry with subtle variation
+  (unity in multiplicity), flowing arabesque line (breath/growth, the living counterpart to fixed
+  geometry), generous void, and soft light (*nūr*) over hard contrast. **(A** Met geometric/vegetal;
+  Critchlow.**)**
+- **Honest interpretation caveat.** The Qur'anic vocabulary is canonical, but the claim that pattern
+  *deliberately encodes* this theology is the **perennialist reading** (Burckhardt, Nasr) — widely held
+  but interpretive; **Grabar** (*The Mediation of Ornament*) is the cautious art-historical counter-voice.
+  Hold the symbolism as interpretation, not documented intent. **(A)**
+- **Craft caveat (confirmed).** Midjourney cannot render Arabic (its docs: text works best in Latin) → AI
+  "calligraphy" of scripture is gibberish and disrespectful. Geometry and arabesque carry no text and are
+  safe. **(A** MJ docs.**)**
+
+**Call (→ a future `islamic-calm` style; not yet locked):** capture the *energy, not the depiction* —
+endless, **low-density** geometry (*girih*) and/or arabesque (*islīmī*), **no focal point**, generous
+void, soft luminous low contrast (*nūr*); monochrome (palette decided at commit). Hard exclusions: **no
+AI Arabic / calligraphy, no figures, no literal mosque scenes.** For wallpaper: large-scale, low-density,
+dissolving into void (leaves room for icons); describe the *geometry + energy directly*, not the word
+"Islamic" (which pulls Midjourney toward clichés + pseudo-script).
+
+**Sources:** Qur'an.com 48:4 & 13:28 **(A)**; Met essays — Figural Representation, Geometric Patterns,
+Vegetal Patterns **(A)**; Burckhardt *Art of Islam: Language and Meaning* **(A)**; Nasr *Islamic Art and
+Spirituality* **(A)**; Critchlow *Islamic Patterns* **(A)**; Grabar *The Mediation of Ornament* **(A**,
+counter-voice**)**; Aniconism in Islam — Wikipedia **(B)**; Midjourney text-generation docs **(A)**.
