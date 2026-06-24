@@ -23,6 +23,28 @@ From [research.md](./research.md). Invariant across all calm styles:
 The art direction and subject vocabulary, defined by the style's `STYLE.md`. First style:
 [ink on paper, Peanuts](./specs/ink-peanuts/STYLE.md). *This is the rung where the theme arrives.*
 
+### How a style maps to Midjourney
+Our "style" is an art direction — bigger than any single Midjourney flag, but it *binds* to a few. The
+split that matters is per-style vs universal:
+
+| Our concept | Midjourney mechanism | Scope |
+|---|---|---|
+| A style's **look** (the family resemblance) | `--sref <code>` (+ `--sw` weight, `--sv` version), anchored to one committed image | per style |
+| A style's **register & motifs** | the prompt fragment — the words | per style |
+| The **calm base** (shared by every style) | `--style raw`, low `--s`, `--c 0`, the `--no` list | universal — here + the [recipe](./recipe.md), never per-style |
+| **Reproducibility** vs MJ drift | the committed anchor image + the recorded `--v` | per style |
+
+So **one style = one anchor image + its `--sref` code (+ sw/sv/version) + a prompt fragment + a motif
+vocabulary**, recorded in the style's `STYLE.md` (its "Midjourney binding"). Different styles = different
+anchors and codes. To *generate from a style*, load its binding onto this ladder, then add the subject
+(Layer C) and the device `--ar` (Layer D).
+
+**Durability note (Article IX):** MJ `--sref` codes are tied to model versions and can drift when MJ
+updates. The **committed anchor image is the source of truth**; the code is a convenience pointer. If a
+code stops rendering right, re-derive it from the anchor (`--sref <anchor image URL>`, or `--sref random`
+→ pick → lock the new code). Flag values here are as of MJ v6/v7 — confirm against current Midjourney
+docs before locking a style.
+
 ## Layer C — the subject (per [artwork](./specs/))
 One quiet subject from the style's vocabulary — one artwork, one thing. Lives in the artwork's spec.
 

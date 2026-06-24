@@ -35,9 +35,16 @@ Drop this onto the Layer A base (see [recipe](../../recipe.md) for full paramete
 confident marks, single-ink line work, no shading no gradient ...
 ```
 
-- **Locked `--sref`:** _to set_ — once a first artwork's anchor is chosen, record its `--sref` code here
-  so every artwork in this style reads as one hand. (See [recipe](../../recipe.md), "keeping a set
-  consistent".)
+## Midjourney binding
+
+How this style maps to Midjourney — see the [ladder](../../prompt-ladder.md), "How a style maps to
+Midjourney". To set once a first anchor is chosen **by hand**:
+
+- **Anchor image:** `./anchor.png` — _to add_ (the source of truth; the look every artwork shares).
+- **`--sref`:** _to set_ — the style code derived from the anchor.
+- **`--sw`:** `100` — style weight; lower it if the look pulls too hard.
+- **`--sv` / `--v`:** _to record_ — sref version + the MJ model version this was made on (for re-deriving
+  if the code drifts).
 
 ## Artworks in this style
 
