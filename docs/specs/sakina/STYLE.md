@@ -1,7 +1,7 @@
 # Style — Sakina
 
-**Status:** draft · **Date:** 2026-06-24 · **The second calm style.** *Sakina* (سكينة) — the calm that
-settles. Named for the energy, not a place or a faith.
+**Status:** ready (locked 2026-06-24) · **Date:** 2026-06-24 · **The second calm style.** *Sakina*
+(سكينة) — the calm that settles. Named for the energy, not a place or a faith.
 
 The energy, not the depiction. A style is **Layer B** of the [prompt ladder](../../prompt-ladder.md):
 the register and motif vocabulary that arrive on the upper rungs, once the universal calm base (Layer A)
@@ -127,9 +127,9 @@ Midjourney". To set once a first anchor is chosen **by hand**:
 
 ## Constitution Check
 
-1. **Serves:** the suite identity (monochrome, low-arousal), VI (no focal point, soft glow over hard
-   contrast — calm by construction), I (a bounded motif vocabulary, room to breathe), and the
-   *energy-not-depiction* reading of the tradition.
+1. **Serves:** the suite's calm register (low-arousal, low-contrast — colour a documented departure, see
+   Palette), VI (no focal point, soft glow over hard contrast — calm by construction), I (a bounded motif
+   vocabulary, room to breathe), and the *energy-not-depiction* reading of the tradition.
 2. **Violates:** the suite's monochrome rule — *deliberately*, by the person's choice, recorded as an
    exception to be reflected to identity.md (not drift), and held calm by the low-saturation/light/low-
    contrast rule (research-backed). Otherwise none — non-figurative, no text/calligraphy/figures; the hard

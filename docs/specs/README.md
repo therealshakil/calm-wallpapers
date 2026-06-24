@@ -11,7 +11,7 @@ Co-authored; only the person marks one *ready*.
 | Style | Art direction | Status |
 |---|---|---|
 | [ink on paper, Peanuts](./ink-peanuts/STYLE.md) | warm ink, Peanuts + poetry; the first style | draft |
-| [Sakina](./sakina/STYLE.md) | سكينة, the calm that settles — the energy not the depiction; Alhambra × Swahili coast geometry, no focal point, matte plaster, calm desaturated colour | draft |
+| [Sakina](./sakina/STYLE.md) | سكينة, the calm that settles — the energy not the depiction; Alhambra × Swahili coast geometry, no focal point, matte plaster, calm desaturated colour | ready |
 
 ## Capability specs
 
