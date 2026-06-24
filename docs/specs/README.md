@@ -13,6 +13,14 @@ Co-authored; only the person marks one *ready*.
 | [ink on paper, Peanuts](./ink-peanuts/STYLE.md) | warm ink, Peanuts + poetry; the first style | draft |
 | [Islamic calm](./islamic-calm/STYLE.md) | the energy not the depiction — Alhambra × Swahili coast geometry, no focal point, matte plaster, calm desaturated colour (a chosen departure) | draft |
 
+## Capability specs
+
+Cross-cutting specs (not artworks): how the repo builds things.
+
+| Spec | What | Status |
+|---|---|---|
+| [Style preview artifact](./style-preview-artifact.md) | a glanceable HTML style board, committed + rendered via the Artifact tool | draft |
+
 ## Layout
 
 ```
