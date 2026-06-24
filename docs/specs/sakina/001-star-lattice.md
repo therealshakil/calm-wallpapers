@@ -17,11 +17,11 @@ Climbs the [ladder](../../prompt-ladder.md): Layer A base + the [style](./STYLE.
 texture) + this subject + the device target. Starting point (tune in the session):
 
 ```
-large-scale interlacing eight-point star geometry (girih), fine low relief in matte carved plaster,
-limewashed cream and warm sand ground, one dusty desaturated indigo accent, low saturation, low contrast,
-soft diffuse light, sun-bleached and chalky, low density, the lattice dissolving softly into generous
-empty space, no focal point, even rhythmic symmetry, calm and still
---style raw --s 80 --c 0 --ar <device> --no gold, gilded, metallic, glossy, glaze, sheen, reflective, vivid, saturated, neon, jewel tones, high contrast, dark heavy background, kanga textile, busy, ornate, muqarnas, carved door, text, arabic, calligraphy, letters, words, script, mosque, dome, minaret, figures, faces, focal point, centred motif
+abstract geometric pattern, seamless tessellation of interlocking eight-pointed stars and polygons, flat
+two-dimensional line work, non-representational, minimal, limewashed cream and warm sand ground with one
+dusty desaturated indigo line, matte, low saturation, low contrast, soft diffuse light, low density,
+dissolving softly into generous empty space, no focal point, even rhythmic symmetry, calm and still
+--style raw --s 50 --c 0 --ar <device> --no flowers, floral, bouquet, vase, fruit, still life, plants, leaves, botanical, objects, people, figures, representational, realistic, photo, 3d, glossy, sheen, vivid, saturated, neon, jewel tones, gold, gilded, high contrast, dark heavy background, busy, ornate, muqarnas, text, arabic, calligraphy, letters, mosque, dome, minaret, focal point, centred motif
 ```
 
 Accent swap: *muted sage* or Indian-Ocean *muted teal* in place of the indigo. Describe the geometry and

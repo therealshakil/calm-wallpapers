@@ -126,6 +126,27 @@ Midjourney". To set once a first anchor is chosen **by hand**:
 - **`--sw`:** `100` — style weight; lower it if the look pulls too hard.
 - **`--sv` / `--v`:** _to record_ — sref version + the MJ model version this was made on.
 
+### Style settings guidance
+
+Pin the whole config so the style reproduces itself — consistency is calm. Change only the subject and the
+device `--ar`; never touch the knobs.
+
+| Setting | Value | Why |
+|---|---|---|
+| Version | `--v 8.1` | the model the look was built on |
+| Variety / chaos | `--c 0` | **low — the biggest consistency lever**; high variety makes every render diverge |
+| Weirdness | `0` | no oddness |
+| Style weight | `--sw 100` | steady pull from the anchor |
+| `--sref` | _the anchor code_ | the look every artwork shares |
+
+Two dials are *taste, not consistency* — set each once to the look you keep, then pin it and don't move it:
+
+- **Mode:** Raw (flat, matte, less auto-saturated — the calmer default) **or** Standard (softer, more
+  painterly — the look from the first liked renders).
+- **Stylize (`--s`):** low (`--s 50`) for faithful and flat; higher for painterly. Pick, pin, leave.
+
+Predictability is the point: once these are set, a Sakina render is repeatable — that *is* the calm.
+
 ## Artworks in this style
 
 | # | Artwork | Status |

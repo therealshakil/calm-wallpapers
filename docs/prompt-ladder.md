@@ -54,6 +54,12 @@ an anchor image directly are lighter one-shot alternatives. **Personalization** 
 secondary option only: account-bound (not portable like an sref code) and built by an open-ended ranking
 grind, so it fits the repo and calm less well.
 
+**Pin the settings — consistency is calm.** A style fixes its *whole* Midjourney config, not just the
+`--sref`, so every render is predictable: you change only the subject (Layer C) and the device `--ar`
+(Layer D) — never the knobs. A style's binding records **version (`--v`), mode (Raw vs Standard), stylize
+(`--s`), variety/chaos (`--c`, kept low), weirdness (0), and `--sw`**. High variety and drifting settings
+are exactly what make a set feel restless; pin them once and a style reproduces itself.
+
 ## Layer C — the subject (per [artwork](./specs/))
 One quiet subject from the style's vocabulary — one artwork, one thing. Lives in the artwork's spec.
 
