@@ -1,0 +1,374 @@
+<title>Islamic calm — style preview</title>
+
+<style>
+  :root {
+    /* the islamic-calm palette (docs/specs/islamic-calm/STYLE.md) */
+    --lime-wash: #EDE6D6;
+    --warm-sand: #DAC9A6;
+    --dusty-indigo: #5E7287;
+    --muted-sage: #8A9A82;
+    --soft-terracotta: #B07A5E;
+    --muted-teal: #6E9C99;
+    --faded-ink: #4A4A45;
+    --deep-taupe: #2E2A26;
+    --bone: #E6DFD2;
+
+    --ground: var(--lime-wash);
+    --ink: var(--faded-ink);
+    --hair: color-mix(in srgb, var(--faded-ink) 18%, transparent);
+    --soft-ink: color-mix(in srgb, var(--faded-ink) 62%, transparent);
+
+    --serif: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+
+    --measure: 40rem;
+    --step: clamp(1rem, 0.9rem + 0.4vw, 1.0625rem);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: var(--step);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: clamp(2.5rem, 6vw, 5.5rem) clamp(1.25rem, 5vw, 2rem) 4rem;
+    opacity: 0;
+    animation: settle 700ms ease forwards;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .page { animation: none; opacity: 1; }
+  }
+  @keyframes settle { to { opacity: 1; } }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--soft-ink);
+    margin: 0 0 1.25rem;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(2.4rem, 1.8rem + 3vw, 3.6rem);
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 1rem;
+  }
+
+  .essence {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+    line-height: 1.5;
+    color: var(--soft-ink);
+    text-wrap: pretty;
+    max-width: 34rem;
+    margin: 0 0 0.5rem;
+  }
+
+  section { margin-top: clamp(2.75rem, 6vw, 4rem); }
+
+  .label {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--dusty-indigo);
+    border-top: 1px solid var(--hair);
+    padding-top: 0.85rem;
+    margin: 0 0 0.35rem;
+  }
+
+  h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0 0 0.4rem;
+  }
+
+  .note { color: var(--soft-ink); margin: 0 0 1.5rem; max-width: 32rem; }
+  .note--small { font-size: 0.875rem; }
+
+  /* palette */
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+    gap: 0.85rem;
+  }
+  .chip { display: flex; flex-direction: column; gap: 0.55rem; }
+  .chip__well {
+    height: 4.25rem;
+    border-radius: 3px;
+    border: 1px solid var(--hair);
+  }
+  .chip__name { font-size: 0.9rem; font-weight: 600; }
+  .chip__hex {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--soft-ink);
+    text-transform: uppercase;
+  }
+  .chip__role {
+    font-size: 0.78rem;
+    color: var(--soft-ink);
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* composition */
+  .boards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1rem;
+  }
+  .board figure { margin: 0; }
+  .board canvas {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    border-radius: 3px;
+    border: 1px solid var(--hair);
+  }
+  .board figcaption {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--soft-ink);
+    margin-top: 0.6rem;
+  }
+
+  /* texture */
+  .textures { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+  .textures li { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; align-items: center; }
+  .tex-tile { height: 3.5rem; border-radius: 3px; border: 1px solid var(--hair); }
+  .tex-name { font-weight: 600; font-size: 0.95rem; }
+  .tex-desc { color: var(--soft-ink); font-size: 0.85rem; }
+
+  /* prompt */
+  pre {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    line-height: 1.6;
+    background: color-mix(in srgb, var(--warm-sand) 45%, var(--lime-wash));
+    border: 1px solid var(--hair);
+    border-radius: 4px;
+    padding: 1.1rem 1.25rem;
+    margin: 0;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: color-mix(in srgb, var(--faded-ink) 88%, transparent);
+  }
+
+  footer {
+    margin-top: clamp(3rem, 7vw, 4.5rem);
+    border-top: 1px solid var(--hair);
+    padding-top: 1.25rem;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: var(--soft-ink);
+  }
+  footer code { font-family: var(--mono); font-size: 0.74rem; }
+</style>
+
+<div class="page">
+  <p class="eyebrow">Calm-wallpapers · style preview · draft</p>
+  <h1>Islamic calm</h1>
+  <p class="essence">The energy, not the depiction — geometry that asks nothing. The Alhambra's restraint
+  meeting the Swahili coast's warmth, in calm desaturated colour.</p>
+
+  <section>
+    <p class="label">Palette</p>
+    <h2>Calm colour, earned</h2>
+    <p class="note">Low saturation, light value, low contrast — a neutral ground dominates and accents
+    stay sparse. One accent leads a piece; the rest wait.</p>
+    <div class="swatches">
+      <div class="chip">
+        <div class="chip__well" style="background:#EDE6D6"></div>
+        <div class="chip__name">Lime-Wash</div>
+        <div class="chip__hex">#EDE6D6</div>
+        <div class="chip__role"><span>Ground</span><span>~70%</span></div>
+      </div>
+      <div class="chip">
+        <div class="chip__well" style="background:#DAC9A6"></div>
+        <div class="chip__name">Warm Sand</div>
+        <div class="chip__hex">#DAC9A6</div>
+        <div class="chip__role"><span>2nd ground</span><span>~15%</span></div>
+      </div>
+      <div class="chip">
+        <div class="chip__well" style="background:#5E7287"></div>
+        <div class="chip__name">Dusty Indigo</div>
+        <div class="chip__hex">#5E7287</div>
+        <div class="chip__role"><span>Accent</span><span>~6%</span></div>
+      </div>
+      <div class="chip">
+        <div class="chip__well" style="background:#8A9A82"></div>
+        <div class="chip__name">Muted Sage</div>
+        <div class="chip__hex">#8A9A82</div>
+        <div class="chip__role"><span>Accent</span><span>~5%</span></div>
+      </div>
+      <div class="chip">
+        <div class="chip__well" style="background:#B07A5E"></div>
+        <div class="chip__name">Soft Terracotta</div>
+        <div class="chip__hex">#B07A5E</div>
+        <div class="chip__role"><span>Sparse</span><span>~3%</span></div>
+      </div>
+      <div class="chip">
+        <div class="chip__well" style="background:#4A4A45"></div>
+        <div class="chip__name">Faded Ink</div>
+        <div class="chip__hex">#4A4A45</div>
+        <div class="chip__role"><span>Line only</span><span>~1%</span></div>
+      </div>
+    </div>
+    <p class="note note--small" style="margin-top:1rem">Indian-Ocean <strong>Muted Teal #6E9C99</strong>
+    is an optional swap for the indigo. Hexes are calibrated starting points — tune by eye.</p>
+  </section>
+
+  <section>
+    <p class="label">Composition</p>
+    <h2>No focal point, dissolving into void</h2>
+    <p class="note">Low-density girih — the pattern is the subject, large-scale and open, fading at the
+    edges so the eye never locks and the screen stays roomy.</p>
+    <div class="boards">
+      <div class="board">
+        <figure>
+          <canvas id="board-light" aria-label="Light composition sketch: a low-density eight-point star lattice in faded ink on warm paper, fading toward the edges"></canvas>
+          <figcaption>Light · ink on warm paper</figcaption>
+        </figure>
+      </div>
+      <div class="board">
+        <figure>
+          <canvas id="board-dark" aria-label="Dark composition sketch: a low-density eight-point star lattice in bone-white on soft off-black, fading toward the edges"></canvas>
+          <figcaption>Dark · bone on deep taupe</figcaption>
+        </figure>
+      </div>
+    </div>
+    <p class="note note--small" style="margin-top:0.9rem">A sketch of the direction — not the artwork.
+    The wallpapers are made by hand in Midjourney.</p>
+  </section>
+
+  <section>
+    <p class="label">Texture</p>
+    <h2>Matte, weathered, a quiet ground</h2>
+    <p class="note">Texture is an all-over ground, never a subject — the matte side of each tradition.</p>
+    <ul class="textures">
+      <li>
+        <span class="tex-tile" style="background:linear-gradient(135deg,#EFE8D9,#E2D8C2)"></span>
+        <span><span class="tex-name">Matte carved plaster</span> &middot;
+        <span class="tex-desc">Alhambra <em>yesería</em> — chalky, low relief, soft self-shadow.</span></span>
+      </li>
+      <li>
+        <span class="tex-tile" style="background:linear-gradient(135deg,#E7DCC6,#D8C7A4)"></span>
+        <span><span class="tex-name">Limewashed coral wall</span> &middot;
+        <span class="tex-desc">Swahili coast — weathered, sun-bleached, gently porous.</span></span>
+      </li>
+      <li>
+        <span class="tex-tile" style="background:linear-gradient(135deg,#ECE6D8,#E4DCCB)"></span>
+        <span><span class="tex-name">Soft hand-pressed plaster</span> &middot;
+        <span class="tex-desc">Seamless, faint wabi-sabi grain, near-matte.</span></span>
+      </li>
+      <li>
+        <span class="tex-tile" style="background:repeating-linear-gradient(45deg,#E5DBC4,#E5DBC4 3px,#DED2B8 3px,#DED2B8 6px)"></span>
+        <span><span class="tex-name">Fine woven palm tooth</span> &middot;
+        <span class="tex-desc">Optional <em>mkeka</em> grain — a subtle all-over tooth, like paper.</span></span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="label">The prompt</p>
+    <h2>Starting point</h2>
+    <p class="note">Climbs the ladder: calm base + this style + the subject + the device. Tune in a finite
+    session; describe the geometry and the calm directly — never the word "Islamic".</p>
+<pre>large-scale interlacing eight-point star geometry (girih), fine low relief in matte carved plaster, limewashed cream and warm sand ground, one dusty desaturated indigo accent, low saturation, low contrast, soft diffuse light, sun-bleached and chalky, low density, the lattice dissolving softly into generous empty space, no focal point, even rhythmic symmetry, calm and still
+--style raw --s 80 --c 0 --ar &lt;device&gt; --no gold, gilded, metallic, glossy, glaze, sheen, reflective, vivid, saturated, neon, jewel tones, high contrast, dark heavy background, busy, ornate, muqarnas, carved door, text, arabic, calligraphy, letters, mosque, dome, minaret, figures, faces, focal point, centred motif</pre>
+  </section>
+
+  <footer>
+    Draft style board, backed by <code>research.md</code> (Alhambra &times; Swahili coast — calm colour
+    &amp; texture). Monochrome is the suite default; this style uses calm colour as a documented departure,
+    yours to lock in <code>identity.md</code>. Committed at <code>docs/specs/islamic-calm/preview.html</code>,
+    rendered with the Artifact tool.
+  </footer>
+</div>
+
+<script>
+  function drawStar(ctx, cx, cy, r) {
+    for (let k = 0; k < 2; k++) {
+      const off = k * Math.PI / 4;
+      ctx.beginPath();
+      for (let i = 0; i < 4; i++) {
+        const ang = off + i * Math.PI / 2 + Math.PI / 4;
+        const px = cx + r * Math.cos(ang);
+        const py = cy + r * Math.sin(ang);
+        if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+      }
+      ctx.closePath();
+      ctx.stroke();
+    }
+  }
+
+  function drawLattice(canvas, opts) {
+    const ctx = canvas.getContext("2d");
+    const dpr = window.devicePixelRatio || 1;
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    if (!w || !h) return;
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = opts.ground;
+    ctx.fillRect(0, 0, w, h);
+    ctx.lineJoin = "round";
+    ctx.lineWidth = 1.1;
+
+    const cell = Math.min(w, h) / 2.1;       /* low density: ~2 across */
+    const r = cell * 0.4;
+    for (let y = cell * 0.5; y < h + cell; y += cell) {
+      for (let x = cell * 0.5; x < w + cell; x += cell) {
+        const dx = (x - w / 2) / (w / 2), dy = (y - h / 2) / (h / 2);
+        const d = Math.sqrt(dx * dx + dy * dy);
+        const a = Math.max(0, 1 - d * 0.85);   /* vignette to void */
+        if (a <= 0.03) continue;
+        ctx.globalAlpha = a * opts.maxAlpha;
+        ctx.strokeStyle = opts.line;
+        drawStar(ctx, x, y, r);
+      }
+    }
+    /* one accent leads — the central star */
+    ctx.globalAlpha = opts.maxAlpha;
+    ctx.strokeStyle = opts.accent;
+    drawStar(ctx, w / 2, h / 2, r * 0.5);
+    ctx.globalAlpha = 1;
+  }
+
+  function render() {
+    const light = document.getElementById("board-light");
+    const dark = document.getElementById("board-dark");
+    if (light) drawLattice(light, { ground: "#EDE6D6", line: "#4A4A45", accent: "#5E7287", maxAlpha: 0.55 });
+    if (dark) drawLattice(dark, { ground: "#2E2A26", line: "#E6DFD2", accent: "#6E9C99", maxAlpha: 0.5 });
+  }
+
+  render();
+  let t;
+  window.addEventListener("resize", function () {
+    clearTimeout(t);
+    t = setTimeout(render, 150);
+  });
+</script>
