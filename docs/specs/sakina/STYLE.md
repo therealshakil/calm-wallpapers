@@ -1,6 +1,6 @@
 # Style — Sakina
 
-**Status:** ready (locked 2026-06-24; revised — abstract only, no subjects) · **Date:** 2026-06-24 · **The second calm style.** *Sakina*
+**Status:** ready · locked 2026-06-24 (abstract-only; `--sref` bound) · **Date:** 2026-06-24 · **The second calm style.** *Sakina*
 (سكينة) — the calm that settles. Named for the energy, not a place or a faith.
 
 The energy, not the depiction. A style is **Layer B** of the [prompt ladder](../../prompt-ladder.md):
