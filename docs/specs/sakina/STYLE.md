@@ -120,11 +120,11 @@ dissolving into generous empty space, no focal point, even rhythmic symmetry, ca
 How this style maps to Midjourney — see the [ladder](../../prompt-ladder.md), "How a style maps to
 Midjourney". To set once a first anchor is chosen **by hand**:
 
-- **Anchor image:** `./anchor.png` — _to add_ (the source of truth; the look every artwork shares).
-- **`--sref`:** _to set_ — the style code derived from the anchor (make it in a finite Style Creator
-  session — see the [ladder](../../prompt-ladder.md), "Making a style's code").
+- **Anchor image:** `./anchor.png` — _to add_ (download a honed tile here; the source of truth if the
+  code ever drifts).
+- **`--sref`:** `5152366415` — locked 2026-06-24, from the Style Creator session.
 - **`--sw`:** `100` — style weight; lower it if the look pulls too hard.
-- **`--sv` / `--v`:** _to record_ — sref version + the MJ model version this was made on.
+- **`--v`:** `8.1` — the model the style was honed on.
 
 ### Style settings guidance
 
@@ -137,7 +137,7 @@ device `--ar`; never touch the knobs.
 | Variety / chaos | `--c 0` | **low — the biggest consistency lever**; high variety makes every render diverge |
 | Weirdness | `0` | no oddness |
 | Style weight | `--sw 100` | steady pull from the anchor |
-| `--sref` | _the anchor code_ | the look every artwork shares |
+| `--sref` | `5152366415` | the look every artwork shares |
 
 Two dials are *taste, not consistency* — set each once to the look you keep, then pin it and don't move it:
 
