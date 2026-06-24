@@ -223,3 +223,36 @@ all-over, low contrast. Avoid glaze/sheen, gilded muqarnas, deep-carved doors.
 **Sources:** *Stucco decoration in Islamic architecture* — Wikipedia **(A/B)**; *Zellij* — Wikipedia
 **(A/B)**; *Swahili architecture* — Wikipedia **(A/B)**; Mkeka mat — Ethnological Museum Berlin **(A)**;
 ArchDaily *Swahili architecture* **(B)**; *Tadelakt* — Wikipedia / Remodelista **(A/B)**.
+
+---
+
+## Weathered Nakuru mosque-wall — palette + texture (2026-06-24)
+
+**Q:** For a Sakina wallpaper with the feeling, texture, and colour of a *weatherbeaten mosque wall in a
+Nakuru (Rift Valley) maize town* — what's the calm, research-earned palette + texture? Abstract; no
+mosque depicted, just the wall's surface and colours.
+
+**Found:**
+- **Rift Valley / Nakuru earth = laterite "murram"** — iron-oxide blood-red, ranging dark reddish-brown
+  → rusty red → purple; the dry season throws **red dust**. The red-earth note is the region's signature.
+  **(B/C** — Slow Food *Rift Valley Diary*; Tsavo Trust; Tensar laterite.**)**
+- **Small-town Kenyan mosque walls** are traditionally **whitewashed cream/beige with green** (and some
+  turquoise) trim or spires (e.g. Khoja Ithnasheri, Lamu — whitewashed, green spires). Weatherbeaten,
+  they read **chalky, sun-bleached cream, faded green, dust-filmed**. (NB: the bright-*yellow* Kenyan
+  mosques are the deliberate "Color in Faith" art project — not weathering; steer clear.) **(B/C** — CNN;
+  abiri.home.blog; Hyperallergic.**)**
+- **Maize-town surroundings:** dry-season **maize gold, straw, dust ochre**.
+- **Weathered texture:** patchy sun-bleached lime wash, chalky, dust patina, hairline sun-cracks, faint
+  water-staining, rough hand-rendered render, exposed substrate — matte, low-sheen.
+- **Calm =** desaturate all; the cream + dust grounds dominate; faded green / murram red / maize stay
+  sparse; low contrast.
+
+**Call (→ artwork 002, working title):** extend the Sakina palette toward weathered-Nakuru — grounds
+**sun-bleached cream `#ECE4D4` + warm dust `#D9C8A4`** (~75%); sparse accents **faded mosque-green
+`#8E9C85`, desaturated murram red-earth `#A56A4E`, dust-grey `#ABA294`, faded maize-gold `#C8A865`**.
+Texture = a weatherbeaten lime-wash wall. Hold abstract — **no literal mosque/dome/minaret**; the *wall*,
+not the building. Hexes are approximations.
+
+**Sources:** Slow Food *Rift Valley Diary* **(B)**; Tsavo Trust *Why is Tsavo's soil red?* **(C)**; Tensar
+*Lateritic soils* **(B)**; CNN *Why are Kenya's churches and mosques turning yellow?* **(B)**;
+abiri.home.blog *Khoja Ithnasheri Mosque, Lamu* **(C)**; Hyperallergic *Color in Faith* **(B)**.
