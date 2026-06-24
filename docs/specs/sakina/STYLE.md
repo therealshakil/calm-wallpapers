@@ -1,6 +1,6 @@
 # Style — Sakina
 
-**Status:** ready (locked 2026-06-24) · **Date:** 2026-06-24 · **The second calm style.** *Sakina*
+**Status:** ready (locked 2026-06-24; revised — abstract only, no subjects) · **Date:** 2026-06-24 · **The second calm style.** *Sakina*
 (سكينة) — the calm that settles. Named for the energy, not a place or a faith.
 
 The energy, not the depiction. A style is **Layer B** of the [prompt ladder](../../prompt-ladder.md):
@@ -65,31 +65,40 @@ tradition:
 Hold to: matte over glossy, shallow over deep relief, diffuse light over dramatic, even all-over, low
 contrast. Avoid glaze/sheen, gilded **muqarnas**, deep-carved doors — the busy ends.
 
-## Composition — the pattern *is* the subject
+## Composition — abstract pattern, no subject
 
-This style adjusts Layer A's "one small subject in a void". Here the field of pattern is the subject, so:
+**Abstract and non-representational — no subjects, no objects, no flowers.** The geometry itself is the
+whole image. This adjusts Layer A's "one small subject in a void": here the *field of geometry* is the
+subject, so:
 
+- **Pure geometry** — flat, 2D, line-based tessellation. Never a depicted thing (no vase, bouquet, still
+  life, fruit, or wall-scene).
 - **Large-scale and low-density** — open, not a dense rug. The calm is in the breathing room.
-- **Occupies part of the frame and dissolves into void** — a medallion or edge-band fading to empty
-  paper, keeping the screen open (room for icons) and the gaze unfixed.
+- **Dissolves into void** — a medallion or edge-band fading to empty ground; the screen stays open, the
+  gaze unfixed.
 - **No focal point** — even weight; nothing begins or ends inside the frame.
 
 ## Motif vocabulary
 
-Non-figurative structures, not objects. A starting list — it firms up as artworks land:
+Abstract geometric structures only — never objects. A starting list — it firms up as artworks land:
 
-- interlacing **eight-point star geometry** (*girih*) · polygon-and-star tessellation
-- a **medallion** dissolving outward into void · an **edge-band** of pattern fading to empty paper
-- flowing **arabesque vegetal line** (*islīmī*) · a single continuous interlaced line
+- interlacing **eight-point star geometry** (*girih*) · polygon-and-star **tessellation**
+- **strapwork** — interlaced ribbon lines, over-and-under
+- a **medallion** of geometry dissolving into void · an **edge-band** fading to empty ground
 - a soft **inner glow of light** (*nūr*) within an open field
 
-**Describe the geometry and the energy directly — never the word "Islamic"** (it pulls Midjourney toward
-clichés: domes, gold, fake script).
+**No arabesque / vegetal line.** It reads as flowers — *islīmī* is stylised plants, and Midjourney renders
+it as literal botanicals. Sakina is **pure geometry**. And **describe the geometry directly — never the
+word "Islamic"** (it pulls clichés: flowers, gold, domes, fake script).
 
 ## Hard exclusions
 
 For accuracy and respect, on top of the base `--no` list:
 
+- **No subjects or objects** — no flowers, bouquet, vase, fruit, still life, plants, leaves, botanical,
+  buildings, walls-as-scenes. Abstract and non-representational only. Negative-prompt `flowers, floral,
+  bouquet, vase, fruit, still life, plants, leaves, botanical, objects, representational, realistic, 3d,
+  photographic`.
 - **No Arabic / calligraphy / pseudo-script** — Midjourney can't render real Arabic; faked scripture is
   worse than ugly (research.md). Negative-prompt `text, arabic, calligraphy, letters, words, script`.
 - **No figures, no faces.** No **literal mosque scenes** (domes, minarets) — pure pattern, line, light.
@@ -99,11 +108,11 @@ For accuracy and respect, on top of the base `--no` list:
 Drop onto the Layer A base (see [recipe](../../recipe.md) for full parameters):
 
 ```
-... large-scale interlacing eight-point star geometry (girih), fine low relief in matte carved plaster,
-limewashed cream and warm sand ground, one dusty desaturated indigo accent, low saturation, low contrast,
-soft diffuse light, sun-bleached and chalky, low density, dissolving softly into generous empty space, no
-focal point, even rhythmic symmetry, calm and still ...
---no gold, gilded, metallic, glossy, glaze, sheen, reflective, vivid, saturated, neon, jewel tones, high contrast, dark heavy background, kanga textile, busy, ornate, muqarnas, carved door, text, arabic, calligraphy, letters, words, script, mosque, dome, minaret, figures, faces, focal point, centred motif
+... abstract geometric pattern, seamless tessellation of interlocking eight-pointed stars and polygons,
+flat two-dimensional line work, non-representational, minimal, limewashed cream and warm sand ground with
+one dusty desaturated indigo line, matte, low saturation, low contrast, soft diffuse light, low density,
+dissolving into generous empty space, no focal point, even rhythmic symmetry, calm and still ...
+--no flowers, floral, bouquet, vase, fruit, still life, plants, leaves, botanical, objects, people, figures, representational, realistic, photo, 3d, glossy, sheen, vivid, saturated, neon, jewel tones, gold, gilded, high contrast, dark heavy background, busy, ornate, muqarnas, text, arabic, calligraphy, letters, mosque, dome, minaret, focal point, centred motif
 ```
 
 ## Midjourney binding
