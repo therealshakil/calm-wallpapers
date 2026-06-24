@@ -45,6 +45,15 @@ code stops rendering right, re-derive it from the anchor (`--sref <anchor image 
 → pick → lock the new code). Flag values here are as of MJ v6/v7 — confirm against current Midjourney
 docs before locking a style.
 
+**Making a style's code.** Use Midjourney's **Style Creator** (midjourney.com) — you pick from grids and
+it builds a reusable, portable `--sref` code. Keep it finite: styles stabilize around 5–10 rounds, so
+lock the code when it settles and **stop** — the stop-rule applies to making the *style*, not just the
+images, and the picking is creative-hand work, never automated (see
+[the-midjourney-exception](./the-midjourney-exception.md), the two-hands rule). `--sref random` or using
+an anchor image directly are lighter one-shot alternatives. **Personalization** (`--p` / moodboards) is a
+secondary option only: account-bound (not portable like an sref code) and built by an open-ended ranking
+grind, so it fits the repo and calm less well.
+
 ## Layer C — the subject (per [artwork](./specs/))
 One quiet subject from the style's vocabulary — one artwork, one thing. Lives in the artwork's spec.
 

@@ -41,7 +41,8 @@ How this style maps to Midjourney — see the [ladder](../../prompt-ladder.md), 
 Midjourney". To set once a first anchor is chosen **by hand**:
 
 - **Anchor image:** `./anchor.png` — _to add_ (the source of truth; the look every artwork shares).
-- **`--sref`:** _to set_ — the style code derived from the anchor.
+- **`--sref`:** _to set_ — the style code derived from the anchor (make it in a finite Style Creator
+  session — see the [ladder](../../prompt-ladder.md), "Making a style's code").
 - **`--sw`:** `100` — style weight; lower it if the look pulls too hard.
 - **`--sv` / `--v`:** _to record_ — sref version + the MJ model version this was made on (for re-deriving
   if the code drifts).
