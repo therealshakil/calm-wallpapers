@@ -22,12 +22,44 @@ fixed geometry), generous void, and soft light (*nūr*) instead of hard contrast
 perennialist interpretation — Burckhardt, Nasr — with Grabar as the cautious counter-voice. We borrow
 the energy, not a claim about intent.)*
 
-## Palette
+## Palette — calm colour (a chosen departure)
 
-**Monochrome**, within the suite [identity](https://github.com/shakilclark/calm/blob/main/docs/identity.md):
-charcoal/grey line on warm off-white (light) / bone-white line on soft off-black (dark). *Nūr* (light) is
-carried by a soft tonal glow, not by colour. A single calm hue would be a deliberate amendment to the
-monochrome rule — parked as a later choice, not assumed here.
+This style **deliberately departs from the suite's locked monochrome identity** — colour is allowed here,
+by choice, recorded as an exception, not drift (the person's call; [research](../../research.md) backs the
+*calm* of it). The governing rule: **calm colour = low saturation + light value + low contrast** — a
+neutral ground dominating, accents sparse and muted (saturation, not hue, is the arousal lever).
+
+Blends the Alhambra's cool geometric restraint with the Swahili coast's warm earthiness:
+
+| Role | Name | Hex | Share |
+|---|---|---|---|
+| Ground | Lime-Wash | `#EDE6D6` | ~70% |
+| Secondary ground | Warm Sand | `#DAC9A6` | ~15% |
+| Accent | Dusty Indigo | `#5E7287` | ~6% |
+| Accent | Muted Sage | `#8A9A82` | ~5% |
+| Accent (sparse) | Soft Terracotta | `#B07A5E` | ~3% |
+| Line only | Faded Ink | `#4A4A45` | ~1% |
+
+- **One accent leads** per piece; all at once reads busy. Default: Lime-Wash + Dusty Indigo, faint Muted
+  Sage second. Indian-Ocean **Muted Teal `#6E9C99`** is an optional swap for the indigo.
+- **No gold, no gloss, no pure-black or dark-heavy field** — dark muted tones still read arousing, so keep
+  values light-to-mid. *Dark variant:* a soft deep-taupe ground, not near-black, accents even quieter.
+- Hexes are calibrated starting points, not measured — tune by eye.
+- *To reflect to the suite:* this proposes calm-wallpapers may use calm colour for this style — an
+  exception to identity.md's "no colour", your lock.
+
+## Texture — matte, weathered, a quiet ground
+
+Texture is an all-over ground, never a subject (no focal point). Evoke the **matte** side of each
+tradition:
+
+- **Matte carved plaster, low relief** (Alhambra *yesería*) — chalky, non-reflective, soft self-shadow.
+- **Limewashed coral wall** (Swahili) — weathered, sun-bleached cream/sand, gently porous.
+- **Soft hand-pressed / near-matte plaster** — seamless, faint wabi-sabi grain.
+- Optional **fine woven palm tooth** (*mkeka*) — a subtle all-over grain, like paper tooth.
+
+Hold to: matte over glossy, shallow over deep relief, diffuse light over dramatic, even all-over, low
+contrast. Avoid glaze/sheen, gilded **muqarnas**, deep-carved doors — the busy ends.
 
 ## Composition — the pattern *is* the subject
 
@@ -63,10 +95,11 @@ For accuracy and respect, on top of the base `--no` list:
 Drop onto the Layer A base (see [recipe](../../recipe.md) for full parameters):
 
 ```
-... large-scale interlacing eight-point star geometry (girih), fine hand-drawn ink line, low density,
-occupying part of the frame and dissolving softly into generous empty space, no focal point, even
-rhythmic symmetry, a soft inner glow of light, calm and still ...
---no text, arabic, calligraphy, letters, words, script, mosque, dome, minaret, figures, faces, high contrast, dense clutter
+... large-scale interlacing eight-point star geometry (girih), fine low relief in matte carved plaster,
+limewashed cream and warm sand ground, one dusty desaturated indigo accent, low saturation, low contrast,
+soft diffuse light, sun-bleached and chalky, low density, dissolving softly into generous empty space, no
+focal point, even rhythmic symmetry, calm and still ...
+--no gold, gilded, metallic, glossy, glaze, sheen, reflective, vivid, saturated, neon, jewel tones, high contrast, dark heavy background, kanga textile, busy, ornate, muqarnas, carved door, text, arabic, calligraphy, letters, words, script, mosque, dome, minaret, figures, faces, focal point, centred motif
 ```
 
 ## Midjourney binding
@@ -84,7 +117,7 @@ Midjourney". To set once a first anchor is chosen **by hand**:
 
 | # | Artwork | Status |
 |---|---|---|
-| — | _none yet_ | — |
+| 001 | [Star lattice](./001-star-lattice.md) | draft |
 
 ---
 
@@ -93,9 +126,10 @@ Midjourney". To set once a first anchor is chosen **by hand**:
 1. **Serves:** the suite identity (monochrome, low-arousal), VI (no focal point, soft glow over hard
    contrast — calm by construction), I (a bounded motif vocabulary, room to breathe), and the
    *energy-not-depiction* reading of the tradition.
-2. **Violates:** none — non-figurative, monochrome, no text/calligraphy/figures (the hard exclusions hold
-   the respect and the calm); confirmed vs Articles + banned patterns. Palette stays monochrome, so no
-   identity amendment is invoked.
+2. **Violates:** the suite's monochrome rule — *deliberately*, by the person's choice, recorded as an
+   exception to be reflected to identity.md (not drift), and held calm by the low-saturation/light/low-
+   contrast rule (research-backed). Otherwise none — non-figurative, no text/calligraphy/figures; the hard
+   exclusions hold the respect and the calm.
 3. **Subtracts:** one register + a finite motif list + hard exclusions keep the set coherent, respectful,
    and small — fewer decisions per artwork.
 4. **Calm:** the no-focal-point field is restful by design; happy and quiet paths inherit from the

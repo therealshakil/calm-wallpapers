@@ -11,7 +11,7 @@ Co-authored; only the person marks one *ready*.
 | Style | Art direction | Status |
 |---|---|---|
 | [ink on paper, Peanuts](./ink-peanuts/STYLE.md) | warm ink, Peanuts + poetry; the first style | draft |
-| [Islamic calm](./islamic-calm/STYLE.md) | the energy not the depiction — geometry/arabesque, no focal point, void, *nūr*; monochrome | draft |
+| [Islamic calm](./islamic-calm/STYLE.md) | the energy not the depiction — Alhambra × Swahili coast geometry, no focal point, matte plaster, calm desaturated colour (a chosen departure) | draft |
 
 ## Layout
 

@@ -155,3 +155,71 @@ dissolving into void (leaves room for icons); describe the *geometry + energy di
 Vegetal Patterns **(A)**; Burckhardt *Art of Islam: Language and Meaning* **(A)**; Nasr *Islamic Art and
 Spirituality* **(A)**; Critchlow *Islamic Patterns* **(A)**; Grabar *The Mediation of Ornament* **(A**,
 counter-voice**)**; Aniconism in Islam — Wikipedia **(B)**; Midjourney text-generation docs **(A)**.
+
+---
+
+## Calm Islamic colour — Alhambra + Swahili coast (2026-06-24)
+
+**Q:** The `islamic-calm` style opens to gentle colour ("doesn't have to be monochrome, still has to be
+calm"). Anchors: the **Alhambra** and **East Africa / the Swahili coast**. What's the *calm* — muted,
+low-arousal — end of these palettes?
+
+**Found:**
+- **Saturation is the main calm lever, not hue.** Desaturated = low-arousal; saturated = high-arousal. A
+  nuance that matters: in the low-saturation range hue differences nearly vanish and **brightness**
+  dominates — *dark* muted tones can be as arousing as vivid red, while **light + low-saturation** reads
+  most restful. So calm = low saturation + light-to-mid value + low contrast + a neutral ground that
+  dominates. **(A** PMC saturation/arousal; **B** colour-emotion reviews.**)**
+- **Alhambra now reads as warm honey stone + aged cream plaster** — originally polychrome (lapis/azurite
+  blue, malachite green, cinnabar red, gold), most faded. The calm parts: the lime-white, honey ochre,
+  dusty terracotta. Too vivid as-is: saturated lapis blue, malachite green, cinnabar, and especially
+  **gold** (the top cliché to avoid). **(A** Alhambra pigment study, Patronato; **B** Dosde.**)**
+- **Swahili coast is naturally calm and earthy** — coral-rag stone, lime-washed cream/white, warm sand,
+  muted ochre, weathered grey, aged-teak browns, soft Indian-Ocean teal. The *textiles* (kanga/kitenge)
+  are the vivid part — keep them out. **Indigo** (a coastal trade craft) desaturates into a dusty blue
+  that bridges both worlds. **(A** UNESCO Stone Town; **B** ArchDaily, African History Extra.**)**
+- Colour meaning, lightly: **green** = Paradise / the middle way (Qur'an 18:31, 55:76 — solid);
+  blue/turquoise as protective (cultural, don't overclaim). **(B)**
+
+**Call (→ `islamic-calm` STYLE.md palette):** a small, desaturated, light palette — neutral ground
+dominant (~85%), sparse muted accents. Ground **Lime-Wash `#EDE6D6`** + **Warm Sand `#DAC9A6`**; accents
+**Dusty Indigo `#5E7287`**, **Muted Sage `#8A9A82`**, sparse **Soft Terracotta `#B07A5E`** (Indian-Ocean
+**Muted Teal `#6E9C99`** an optional swap); hairline **Faded Ink `#4A4A45`** for line only. One accent
+leads per piece. No gold, no gloss, no pure-black/dark-heavy field. Hex values are calibrated
+approximations, not measured. **This is a deliberate departure from the suite's locked monochrome
+identity — a chosen exception for this style, recorded as such, not drift.**
+
+**Sources:** PMC *Saturation & anger (low-saturation range)* **(A)**; Psychonomic Society colour-emotion
+**(B)**; Alhambra pigment study (ResearchGate) **(A)**; Patronato de la Alhambra — Mexuar tiles **(A)**;
+Dosde *Tilework in the Alhambra* **(B)**; UNESCO Stone Town of Zanzibar **(A)**; ArchDaily *Swahili
+architecture* / *Colour in Islamic architecture* **(B)**; *Green in Islam* (Qur'an refs) **(B)**.
+
+---
+
+## Calm Islamic texture — Alhambra + Swahili coast (2026-06-24)
+
+**Q:** What surface textures carry Islamic calm (Alhambra + Swahili), kept matte/restful and recessive
+for a wallpaper?
+
+**Found:**
+- **Pick the matte side of each tradition.** Alhambra has a deliberate hierarchy: glossy saturated
+  **zellij** below the dado, **matte carved plaster** (*yesería*, low-to-deep relief, soft self-shadow)
+  above. The upper-wall plaster is the calm reference; the glazed tile and gilded **muqarnas** are the
+  busy end. **(A/B** stucco + zellij sources.**)**
+- **Swahili = weathered lime over coral.** Coral-rag stone + lime/sand mortar, **lime-washed** chalky
+  cream — soft, porous, sun-bleached, hand-laid. The carved **Zanzibar/Lamu doors** are gorgeous but a
+  *busy* texture — evoke at most as faint grain, never a literal subject. **(A/B** Swahili architecture;
+  museum mkeka object.**)**
+- **Calm texture traits:** matte over glossy, shallow over deep relief, weathered over crisp, diffuse
+  light over dramatic, **even all-over over focal**, low-contrast tonal range. Suggest texture *subtly* —
+  soft plaster grain, gentle low relief, paper-like tooth — felt before noticed. Tadelakt (Moroccan, not
+  Swahili) is a useful near-matte *reference* only. **(A/B** + calm-wallpaper practice **C**.**)**
+
+**Call (→ `islamic-calm` STYLE.md texture):** evoke 3–4 quiet textures — **matte carved plaster (low
+relief)**, **limewashed coral wall**, **soft hand-pressed/near-matte plaster**, optional **fine woven
+palm tooth** — as a *ground*, never a subject. Hold to matte, shallow relief, diffuse soft light, even
+all-over, low contrast. Avoid glaze/sheen, gilded muqarnas, deep-carved doors.
+
+**Sources:** *Stucco decoration in Islamic architecture* — Wikipedia **(A/B)**; *Zellij* — Wikipedia
+**(A/B)**; *Swahili architecture* — Wikipedia **(A/B)**; Mkeka mat — Ethnological Museum Berlin **(A)**;
+ArchDaily *Swahili architecture* **(B)**; *Tadelakt* — Wikipedia / Remodelista **(A/B)**.
