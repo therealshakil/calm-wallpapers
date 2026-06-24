@@ -1,6 +1,6 @@
 # Artwork 001 — Star lattice
 
-**Status:** draft · **Date:** 2026-06-24 · **Style:** [Islamic calm](./STYLE.md)
+**Status:** draft · **Date:** 2026-06-24 · **Style:** [Sakina](./STYLE.md)
 
 One quiet artwork: a low-density eight-point star lattice (*girih*), Alhambra in lineage, dissolving into
 a limewashed plaster field. The first of this style.

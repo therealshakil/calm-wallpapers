@@ -144,7 +144,7 @@ future style? Official / scholarly, to read before committing.
   "calligraphy" of scripture is gibberish and disrespectful. Geometry and arabesque carry no text and are
   safe. **(A** MJ docs.**)**
 
-**Call (→ a future `islamic-calm` style; not yet locked):** capture the *energy, not the depiction* —
+**Call (→ the `sakina` style; not yet locked):** capture the *energy, not the depiction* —
 endless, **low-density** geometry (*girih*) and/or arabesque (*islīmī*), **no focal point**, generous
 void, soft luminous low contrast (*nūr*); monochrome (palette decided at commit). Hard exclusions: **no
 AI Arabic / calligraphy, no figures, no literal mosque scenes.** For wallpaper: large-scale, low-density,
@@ -160,7 +160,7 @@ counter-voice**)**; Aniconism in Islam — Wikipedia **(B)**; Midjourney text-ge
 
 ## Calm Islamic colour — Alhambra + Swahili coast (2026-06-24)
 
-**Q:** The `islamic-calm` style opens to gentle colour ("doesn't have to be monochrome, still has to be
+**Q:** The `sakina` style opens to gentle colour ("doesn't have to be monochrome, still has to be
 calm"). Anchors: the **Alhambra** and **East Africa / the Swahili coast**. What's the *calm* — muted,
 low-arousal — end of these palettes?
 
@@ -181,7 +181,7 @@ low-arousal — end of these palettes?
 - Colour meaning, lightly: **green** = Paradise / the middle way (Qur'an 18:31, 55:76 — solid);
   blue/turquoise as protective (cultural, don't overclaim). **(B)**
 
-**Call (→ `islamic-calm` STYLE.md palette):** a small, desaturated, light palette — neutral ground
+**Call (→ `sakina` STYLE.md palette):** a small, desaturated, light palette — neutral ground
 dominant (~85%), sparse muted accents. Ground **Lime-Wash `#EDE6D6`** + **Warm Sand `#DAC9A6`**; accents
 **Dusty Indigo `#5E7287`**, **Muted Sage `#8A9A82`**, sparse **Soft Terracotta `#B07A5E`** (Indian-Ocean
 **Muted Teal `#6E9C99`** an optional swap); hairline **Faded Ink `#4A4A45`** for line only. One accent
@@ -215,7 +215,7 @@ for a wallpaper?
   soft plaster grain, gentle low relief, paper-like tooth — felt before noticed. Tadelakt (Moroccan, not
   Swahili) is a useful near-matte *reference* only. **(A/B** + calm-wallpaper practice **C**.**)**
 
-**Call (→ `islamic-calm` STYLE.md texture):** evoke 3–4 quiet textures — **matte carved plaster (low
+**Call (→ `sakina` STYLE.md texture):** evoke 3–4 quiet textures — **matte carved plaster (low
 relief)**, **limewashed coral wall**, **soft hand-pressed/near-matte plaster**, optional **fine woven
 palm tooth** — as a *ground*, never a subject. Hold to matte, shallow relief, diffuse soft light, even
 all-over, low contrast. Avoid glaze/sheen, gilded muqarnas, deep-carved doors.

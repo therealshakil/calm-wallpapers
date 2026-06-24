@@ -43,7 +43,7 @@ Proportionate (a tooling call, low bar; reasoned, not heavily sourced):
 
 ## How (the plan)
 
-- **One file per style:** `docs/specs/<style>/preview.html` (e.g. `islamic-calm/preview.html`).
+- **One file per style:** `docs/specs/<style>/preview.html` (e.g. `sakina/preview.html`).
 - **Self-contained HTML**, calm by construction: the style's own palette tokens; generous whitespace; low
   contrast; no `!` or alarm; **almost no motion**, `prefers-reduced-motion` honoured (and near-default
   anyway); light + dark shown side by side.
@@ -60,7 +60,7 @@ Proportionate (a tooling call, low bar; reasoned, not heavily sourced):
 ## Tasks
 
 Filled at build time:
-- [ ] Build `islamic-calm/preview.html` (palette swatches, texture note, composition sketch, prompt;
+- [ ] Build `sakina/preview.html` (palette swatches, texture note, composition sketch, prompt;
   light + dark).
 - [ ] Render via Artifact, iterate, commit the file.
 - [ ] Repeat the pattern for `ink-peanuts` when wanted.

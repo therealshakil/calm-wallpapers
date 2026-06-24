@@ -1,6 +1,7 @@
-# Style — Islamic calm
+# Style — Sakina
 
-**Status:** draft · **Date:** 2026-06-24 · **The second calm style.**
+**Status:** draft · **Date:** 2026-06-24 · **The second calm style.** *Sakina* (سكينة) — the calm that
+settles. Named for the energy, not a place or a faith.
 
 The energy, not the depiction. A style is **Layer B** of the [prompt ladder](../../prompt-ladder.md):
 the register and motif vocabulary that arrive on the upper rungs, once the universal calm base (Layer A)
@@ -8,9 +9,10 @@ is set. Grounded in [research.md](../../research.md), "What is Islamic calm?".
 
 ## The register
 
-Islamic calm is **a stillness that feels received, not achieved** — peace that settles on the heart
-(*sakīna*), the quiet of a heart at rest (*ṭumaʾnīna*). Its visual expression turns *away* from depicting
-things and *toward* unity and the unrepresentable (*tawḥīd*) — so this style is **non-figurative by
+**Sakina** (*sakīna*, سكينة) is **a stillness that feels received, not achieved** — the tranquility that
+descends and settles on the heart (Qur'an 48:4); with it, the quiet of a heart at rest (*ṭumaʾnīna*). The
+style is named for that calm — the energy, not the depiction. Its visual expression turns *away* from
+depicting things and *toward* unity and the unrepresentable (*tawḥīd*), so it is **non-figurative by
 nature**, which sits cleanly inside the calm base.
 
 The calm doesn't come from a subject; it comes from **no focal point.** The pattern continues past the

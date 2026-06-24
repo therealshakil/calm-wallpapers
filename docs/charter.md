@@ -36,7 +36,7 @@ generous empty space, never pure `#000`/`#fff`, Peanuts-gentle, never loud. **Mo
 **Colour earns its place.** calm-wallpapers may use colour — but only when it is *calm* (low saturation,
 light value, low contrast — saturation is the arousal lever) **and** only when a palette has earned its
 spot through research (a justified entry in [`research.md`](./research.md), as the
-[Islamic-calm palette](./specs/islamic-calm/STYLE.md) did). Default is still monochrome; colour is a
+[Sakina palette](./specs/sakina/STYLE.md) did). Default is still monochrome; colour is a
 considered choice, never decoration. This is calm-wallpapers' one documented departure from the suite's
 monochrome [identity](https://github.com/shakilclark/calm/blob/main/docs/identity.md) — a stance, not
 drift, proposed back to identity.md as an exception (the person locks).
