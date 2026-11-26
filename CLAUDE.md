@@ -8,7 +8,7 @@ itself** by inheriting direction rather than re-deriving it.
 
 This repo does not restate the rules. It inherits them from the calm suite:
 
-- **`github.com/shakilclark/calm`** — read it as the upstream:
+- **`github.com/therealshakil/calm`** — read it as the upstream:
   - `CONSTITUTION.md` — the ten Articles + banned patterns. Supreme.
   - `docs/identity.md` — the look: monochrome ink on paper, Peanuts-gentle, almost no motion.
   - `docs/calm-language.md` — the voice.
@@ -21,7 +21,7 @@ Constitution Check.
 ## How to "add calm to a project"
 
 This file is the whole mechanism. To calm any project: drop in a short `CLAUDE.md` that names
-`shakilclark/calm` as governing law and points at the four files above. No template to install, no
+`therealshakil/calm` as governing law and points at the four files above. No template to install, no
 machinery to maintain — the calm repo is written to be read by a person or an assistant, so adopting
 it is just pointing at it. That is the pattern; this repo is the first to use it.
 

@@ -1,6 +1,6 @@
 # The Midjourney exception
 
-The suite's [identity](https://github.com/shakilclark/calm/blob/main/docs/identity.md) says, plainly,
+The suite's [identity](https://github.com/therealshakil/calm/blob/main/docs/identity.md) says, plainly,
 **"Not Midjourney."** This repo uses Midjourney. That isn't a contradiction — it's a different use of
 the same word, and worth being clear about.
 

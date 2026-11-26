@@ -8,7 +8,7 @@ rungs, once the universal calm base (Layer A) is set. Other calm styles may foll
 
 ## The register
 
-**Peanuts + poetry**, straight from the suite [identity](https://github.com/shakilclark/calm/blob/main/docs/identity.md):
+**Peanuts + poetry**, straight from the suite [identity](https://github.com/therealshakil/calm/blob/main/docs/identity.md):
 warm, plain, hand-made, a little wistful — big heart, few marks. Meaning from few marks and a lot of
 quiet. Gentle and undemanding; **warmth over wit**, never urbane. Confident black ink on warm off-white
 paper (light) / bone-white ink on soft off-black (dark), single-ink line work only — no gradients, no

@@ -1,7 +1,7 @@
 # The recipe
 
 How to make a calm wallpaper in Midjourney, by hand. This is a craft doc — you run it, not a script.
-It translates the suite's locked [identity](https://github.com/shakilclark/calm/blob/main/docs/identity.md)
+It translates the suite's locked [identity](https://github.com/therealshakil/calm/blob/main/docs/identity.md)
 into prompts and parameters, and explains the *why* so you can deviate with judgement.
 
 ---

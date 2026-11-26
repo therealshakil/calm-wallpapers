@@ -3,19 +3,17 @@
    ink on paper, for the corner of your eye
 ```
 
-> **Rested — 2026-06-24.** This project came to its end and became
-> its next chapter. The work
-> here led the way: the calm method (prompt ladder, research, the lock-when-ready workflow), the *Sakina*
-> style, and the one finished piece — *Kijani* — carry on there. Nothing's lost; it's complete, and it
-> keeps. The repo is archived (read-only).
+> **Rested — 2026-06-24.** This project came to its end. The work here led the way: the calm method
+> (prompt ladder, research, the lock-when-ready workflow), the *Sakina* style, and the one finished
+> piece, *Kijani*. Nothing's lost; it's complete, and it keeps.
 
 A small, hand-made set of monochrome desktop wallpapers — black ink on warm paper, made to recede.
 The kind of picture you set once and stop noticing, which is the point.
 
-This is the first project built the calm way *outside* the [calm suite](https://github.com/shakilclark/calm).
+This is the first project built the calm way *outside* the [calm suite](https://github.com/therealshakil/calm).
 It adds calm to itself by inheriting direction rather than restating it — see
 [`CLAUDE.md`](./CLAUDE.md) for how that works, and the suite's
-[Constitution](https://github.com/shakilclark/calm/blob/main/CONSTITUTION.md) for the law it answers to.
+[Constitution](https://github.com/therealshakil/calm/blob/main/CONSTITUTION.md) for the law it answers to.
 
 ## The look
 

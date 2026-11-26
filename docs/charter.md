@@ -3,9 +3,9 @@
 > A wallpaper is the one picture you see most days and look at least.
 > This set is made to be glanced past — to sit in the corner of your eye and ask nothing.
 
-calm-wallpapers inherits the [Calm Constitution](https://github.com/shakilclark/calm/blob/main/CONSTITUTION.md),
-the [identity](https://github.com/shakilclark/calm/blob/main/docs/identity.md), and the
-[voice](https://github.com/shakilclark/calm/blob/main/docs/calm-language.md) — read those first. This
+calm-wallpapers inherits the [Calm Constitution](https://github.com/therealshakil/calm/blob/main/CONSTITUTION.md),
+the [identity](https://github.com/therealshakil/calm/blob/main/docs/identity.md), and the
+[voice](https://github.com/therealshakil/calm/blob/main/docs/calm-language.md) — read those first. This
 charter covers only what is specific here: the one job, the form, and how a wallpaper earns its place.
 
 ---
@@ -38,7 +38,7 @@ light value, low contrast — saturation is the arousal lever) **and** only when
 spot through research (a justified entry in [`research.md`](./research.md), as the
 [Sakina palette](./specs/sakina/STYLE.md) did). Default is still monochrome; colour is a
 considered choice, never decoration. This is calm-wallpapers' one documented departure from the suite's
-monochrome [identity](https://github.com/shakilclark/calm/blob/main/docs/identity.md) — a stance, not
+monochrome [identity](https://github.com/therealshakil/calm/blob/main/docs/identity.md) — a stance, not
 drift, proposed back to identity.md as an exception (the person locks).
 
 ## 4. How a wallpaper earns its place

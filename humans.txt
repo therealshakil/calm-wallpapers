@@ -5,7 +5,7 @@ Made the calm way: finite, quiet, ink on paper.
 
 Maker: Shakil Clark
 Tool, by hand: Midjourney
-Governing law: github.com/shakilclark/calm
+Governing law: github.com/therealshakil/calm
 
 No colour. No motion. No feed.
 Made to be glanced past.

@@ -2,7 +2,7 @@
 
 Short entries backing the calls in the specs. Each: the question, what the evidence said, the call it
 drove, and sources (graded). Honest where something is reasoned-not-sourced. Method follows the suite's
-[research-method.md](https://github.com/shakilclark/calm/blob/main/docs/research-method.md).
+[research-method.md](https://github.com/therealshakil/calm/blob/main/docs/research-method.md).
 
 Grades: **A** = peer-reviewed / standards body or manufacturer spec · **B** = reputable lab / review /
 practitioner consensus · **C** = blog / forum / secondary.
