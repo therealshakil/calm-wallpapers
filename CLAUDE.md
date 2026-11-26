@@ -6,7 +6,11 @@ itself** by inheriting direction rather than re-deriving it.
 
 ## Governing law lives elsewhere
 
-This repo does not restate the rules. It inherits them from the calm suite:
+calm-wallpapers opts in to full calm (calm's Constitution, Amendment 7): it takes calm as law and does
+not restate the rules. Scoped exceptions: calm colour, research-earned (`docs/charter.md` §3), and
+hand-use of Midjourney ([`docs/the-midjourney-exception.md`](./docs/the-midjourney-exception.md)).
+
+The upstream:
 
 - **`github.com/therealshakil/calm`** — read it as the upstream:
   - `CONSTITUTION.md` — the ten Articles + banned patterns. Supreme.
@@ -20,10 +24,10 @@ Constitution Check.
 
 ## How to "add calm to a project"
 
-This file is the whole mechanism. To calm any project: drop in a short `CLAUDE.md` that names
-`therealshakil/calm` as governing law and points at the four files above. No template to install, no
-machinery to maintain — the calm repo is written to be read by a person or an assistant, so adopting
-it is just pointing at it. That is the pattern; this repo is the first to use it.
+This file is the whole mechanism: a short `CLAUDE.md` that points at calm. There are two kinds — full
+calm (this repo: an opt-in, calm as law) and built on calm (take only the layers you name). The templates
+are in calm's [`ADOPTING.md`](https://github.com/therealshakil/calm/blob/main/ADOPTING.md). This repo was
+the first to use the pattern.
 
 ## What's specific here
 
